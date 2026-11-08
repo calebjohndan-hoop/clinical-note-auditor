@@ -1,6 +1,6 @@
 # Clinical Note Auditor
 
-> **Live demo:** https://clinical-note-auditor.onrender.com ·  · **One-pager:** [ONE_PAGER.pdf](ONE_PAGER.pdf) ·
+> **Live demo:** https://clinical-note-auditor.onrender.com ·  **One-pager:** [ONE_PAGER.pdf](ONE_PAGER.pdf) ·
 >  Built solo by Caleb John Daniel Balakumar for DSH Hacks V2 (AI x Healthcare).
 
 Paste a messy clinical note. Get back:
