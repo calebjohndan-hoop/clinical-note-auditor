@@ -19,7 +19,6 @@ services:
         value: openai/gpt-oss-120b
       - key: LLM_API_KEY
         sync: false
-      # Public demo: never make a visitor wait on the free tier's rate limit.
       # A slow or rate-limited LLM falls back to regex with a visible warning.
       - key: LLM_MAX_WAIT
         value: "5"
