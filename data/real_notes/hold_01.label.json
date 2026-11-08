@@ -1,0 +1,13 @@
+{
+  "id": "hold_01",
+  "source": "MTSamples via Kaggle: Adjustment Disorder & Encopresis (Consult - History and Phy.)",
+  "verified": true,
+  "allergy_documented": true,
+  "allergies": [],
+  "medications": [],
+  "expected_flags": [
+    "missing_vitals"
+  ],
+  "notes": "miralax excluded: no dose given\nzoloft 100 mg excluded: it is the mother's medication, not the patient's\nmissing_vitals: psych intake, no vitals recorded | expected_flags derived by tools/derive_flags.py from labeled allergies/meds + vitals answer",
+  "vitals_present": ""
+}

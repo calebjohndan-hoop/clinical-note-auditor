@@ -1,0 +1,23 @@
+{
+  "id": "hold_00",
+  "source": "MTSamples via Kaggle: Nephrology Consultation - 1 (Nephrology)",
+  "verified": true,
+  "allergy_documented": false,
+  "allergies": [],
+  "medications": [
+    {
+      "name": "nexium",
+      "dose_mg": 40.0
+    },
+    {
+      "name": "synthroid",
+      "dose_mg": 1.0
+    }
+  ],
+  "expected_flags": [
+    "missing_allergy_section",
+    "missing_vitals"
+  ],
+  "notes": "allergy_documented false: 'ALLERGIES:' header present but empty (note is truncated)\nsynthroid listed as 1 mg q.d. (recorded as written); usual max ~0.3 mg, likely a typo for 0.1 mg -> dosage_out_of_range\npotassium excluded: no dose given\nmissing_vitals: no vitals in note | expected_flags derived by tools/derive_flags.py from labeled allergies/meds + vitals answer",
+  "vitals_present": ""
+}

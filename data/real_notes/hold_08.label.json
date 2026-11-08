@@ -1,0 +1,26 @@
+{
+  "id": "hold_08",
+  "source": "MTSamples via Kaggle: Consult - Congestive Heart Failure (Consult - History and Phy.)",
+  "verified": true,
+  "allergy_documented": true,
+  "allergies": [],
+  "medications": [
+    {
+      "name": "isosorbide mononitrate",
+      "dose_mg": 120.0
+    },
+    {
+      "name": "gemfibrozil",
+      "dose_mg": 600.0
+    },
+    {
+      "name": "metoprolol",
+      "dose_mg": 100.0
+    }
+  ],
+  "expected_flags": [
+    "missing_vitals"
+  ],
+  "notes": "aspirin, coumadin (adjusted dose), digoxin, lasix, potassium excluded: no dose given\nvitals: temperature recorded as 'afebrile', counted as present | expected_flags derived by tools/derive_flags.py from labeled allergies/meds + vitals answer",
+  "vitals_present": "bhr"
+}

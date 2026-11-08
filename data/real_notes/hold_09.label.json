@@ -1,0 +1,18 @@
+{
+  "id": "hold_09",
+  "source": "MTSamples via Kaggle: Request For Consultation (General Medicine)",
+  "verified": true,
+  "allergy_documented": true,
+  "allergies": [],
+  "medications": [
+    {
+      "name": "methotrexate",
+      "dose_mg": 22.5
+    }
+  ],
+  "expected_flags": [
+    "missing_vitals"
+  ],
+  "notes": "allergy_documented true: 'remembers no allergic reactions to medication'\nmethotrexate 22.5 mg weekly included although consult recommends stopping it\nnsaid, unnamed antibiotic, prednisone, folic acid, lidex gel excluded: no dose given\nmissing_vitals: no vitals in note | expected_flags derived by tools/derive_flags.py from labeled allergies/meds + vitals answer",
+  "vitals_present": ""
+}

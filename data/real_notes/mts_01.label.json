@@ -1,0 +1,20 @@
+{
+  "id": "mts_01",
+  "source": "MTSamples via Kaggle: Migraine without Aura - Consult (Consult - History and Phy.)",
+  "verified": true,
+  "allergy_documented": true,
+  "allergies": [
+    "codeine"
+  ],
+  "medications": [
+    {
+      "name": "propranolol",
+      "dose_mg": 40.0
+    }
+  ],
+  "expected_flags": [
+    "missing_vitals"
+  ],
+  "notes": "Missing vital signs in physical exam. | expected_flags derived by tools/derive_flags.py from labeled allergies/meds + vitals answer",
+  "vitals_present": ""
+}

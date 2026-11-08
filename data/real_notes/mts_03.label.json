@@ -1,0 +1,28 @@
+{
+  "id": "mts_03",
+  "source": "MTSamples via Kaggle: Lymphoblastic Leukemia - Consult (Cardiovascular / Pulmonary)",
+  "verified": true,
+  "allergy_documented": true,
+  "allergies": [],
+  "medications": [
+    {
+      "name": "enoxaparin",
+      "dose_mg": 60.0
+    },
+    {
+      "name": "warfarin",
+      "dose_mg": 5.0
+    },
+    {
+      "name": "pantoprazole",
+      "dose_mg": 40.0
+    },
+    {
+      "name": "levofloxacin",
+      "dose_mg": 750.0
+    }
+  ],
+  "expected_flags": [],
+  "notes": "expected_flags derived by tools/derive_flags.py from labeled allergies/meds + vitals answer",
+  "vitals_present": "bhtr"
+}

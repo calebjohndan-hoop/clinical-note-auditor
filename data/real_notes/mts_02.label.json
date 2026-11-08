@@ -1,0 +1,48 @@
+{
+  "id": "mts_02",
+  "source": "MTSamples via Kaggle: Atrial Fibrillation - Consult (Consult - History and Phy.)",
+  "verified": true,
+  "allergy_documented": true,
+  "allergies": [],
+  "medications": [
+    {
+      "name": "amlodipine",
+      "dose_mg": 10.0
+    },
+    {
+      "name": "aspirin",
+      "dose_mg": 81.0
+    },
+    {
+      "name": "docusate",
+      "dose_mg": 200.0
+    },
+    {
+      "name": "labetalol",
+      "dose_mg": 100.0
+    },
+    {
+      "name": "phenytoin",
+      "dose_mg": 100.0
+    },
+    {
+      "name": "sevelamer",
+      "dose_mg": 1600.0
+    },
+    {
+      "name": "cinacalcet",
+      "dose_mg": 120.0
+    },
+    {
+      "name": "sertraline",
+      "dose_mg": 100.0
+    },
+    {
+      "name": "simvastatin",
+      "dose_mg": 20.0
+    }
+  ],
+  "expected_flags": [],
+  "notes": "expected_flags derived by tools/derive_flags.py from labeled allergies/meds + vitals answer",
+  "vitals_present": "bhtr"
+}

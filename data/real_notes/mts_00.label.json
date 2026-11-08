@@ -1,0 +1,18 @@
+{
+  "id": "mts_00",
+  "source": "MTSamples via Kaggle: SOAP - Substance Abuse (General Medicine)",
+  "verified": true,
+  "allergy_documented": true,
+  "allergies": [],
+  "medications": [
+    {
+      "name": "fluoxetine",
+      "dose_mg": 20.0
+    }
+  ],
+  "expected_flags": [
+    "missing_vitals"
+  ],
+  "notes": "expected_flags derived by tools/derive_flags.py from labeled allergies/meds + vitals answer",
+  "vitals_present": "bhr"
+}

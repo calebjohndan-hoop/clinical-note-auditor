@@ -1,0 +1,18 @@
+{
+  "id": "mts_07",
+  "source": "MTSamples via Kaggle: Bladder Tumor (Consult - History and Phy.)",
+  "verified": true,
+  "allergy_documented": true,
+  "allergies": [],
+  "medications": [
+    {
+      "name": "atenolol",
+      "dose_mg": 5.0
+    }
+  ],
+  "expected_flags": [
+    "missing_vitals"
+  ],
+  "notes": "Missing vital signs entirely. | expected_flags derived by tools/derive_flags.py from labeled allergies/meds + vitals answer",
+  "vitals_present": ""
+}

@@ -1,0 +1,18 @@
+{
+  "id": "hold_04",
+  "source": "MTSamples via Kaggle: Gardnerella Bacterial Vaginosis (Emergency Room Reports)",
+  "verified": true,
+  "allergy_documented": true,
+  "allergies": [],
+  "medications": [
+    {
+      "name": "metronidazole",
+      "dose_mg": 500.0
+    }
+  ],
+  "expected_flags": [
+    "missing_vitals"
+  ],
+  "notes": "metronidazole is newly prescribed in the plan; included, same as plan prescriptions in mts_00/05/09\nvitals: temperature recorded as 'afebrile', counted as present (same as mts_06) | expected_flags derived by tools/derive_flags.py from labeled allergies/meds + vitals answer",
+  "vitals_present": "bhr"
+}

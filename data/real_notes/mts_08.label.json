@@ -1,0 +1,21 @@
+{
+  "id": "mts_08",
+  "source": "MTSamples via Kaggle: Multiple Neurological Symptoms (Neurology)",
+  "verified": true,
+  "allergy_documented": true,
+  "allergies": [
+    "azathioprine"
+  ],
+  "medications": [
+    {
+      "name": "escitalopram",
+      "dose_mg": 20.0
+    }
+  ],
+  "expected_flags": [
+    "missing_vitals",
+    "unrecognized_allergy"
+  ],
+  "notes": "Imuran noted as causing tachycardia. | expected_flags derived by tools/derive_flags.py from labeled allergies/meds + vitals answer",
+  "vitals_present": "bhr"
+}

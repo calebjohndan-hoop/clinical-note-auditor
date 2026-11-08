@@ -1,0 +1,24 @@
+{
+  "id": "mts_12",
+  "source": "MTSamples via Kaggle: Well-woman checkup (Obstetrics / Gynecology)",
+  "verified": true,
+  "allergy_documented": true,
+  "allergies": [
+    "sulfa"
+  ],
+  "medications": [
+    {
+      "name": "tetracycline",
+      "dose_mg": 250.0
+    },
+    {
+      "name": "propranolol",
+      "dose_mg": 80.0
+    }
+  ],
+  "expected_flags": [
+    "missing_vitals"
+  ],
+  "notes": "expected_flags derived by tools/derive_flags.py from labeled allergies/meds + vitals answer",
+  "vitals_present": "b"
+}

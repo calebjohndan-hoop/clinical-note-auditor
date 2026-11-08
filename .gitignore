@@ -1,0 +1,9 @@
+data/real_notes/*.txt
+data/mtsamples.csv
+.venv/
+__pycache__/
+.pytest_cache/
+.env
+$Recycle.Bin/
+*.env
+*.zip

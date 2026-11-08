@@ -1,0 +1,62 @@
+{
+  "id": "mts_06",
+  "source": "MTSamples via Kaggle: Cardiac Consultation - 7 (Consult - History and Phy.)",
+  "verified": true,
+  "allergy_documented": true,
+  "allergies": [],
+  "medications": [
+    {
+      "name": "clonidine",
+      "dose_mg": 0.3
+    },
+    {
+      "name": "atenolol",
+      "dose_mg": 50.0
+    },
+    {
+      "name": "simvastatin",
+      "dose_mg": 80.0
+    },
+    {
+      "name": "furosemide",
+      "dose_mg": 40.0
+    },
+    {
+      "name": "metformin",
+      "dose_mg": 1000.0
+    },
+    {
+      "name": "hydralazine",
+      "dose_mg": 25.0
+    },
+    {
+      "name": "valsartan",
+      "dose_mg": 320.0
+    },
+    {
+      "name": "lisinopril",
+      "dose_mg": 40.0
+    },
+    {
+      "name": "amlodipine",
+      "dose_mg": 10.0
+    },
+    {
+      "name": "warfarin",
+      "dose_mg": 7.5
+    },
+    {
+      "name": "levothyroxine",
+      "dose_mg": 0.2
+    },
+    {
+      "name": "folic acid",
+      "dose_mg": 1.0
+    }
+  ],
+  "expected_flags": [
+    "missing_vitals"
+  ],
+  "notes": "expected_flags derived by tools/derive_flags.py from labeled allergies/meds + vitals answer",
+  "vitals_present": "hr"
+}

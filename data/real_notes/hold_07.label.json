@@ -1,0 +1,46 @@
+{
+  "id": "hold_07",
+  "source": "MTSamples via Kaggle: Chronic Atrial Fibrillation (Consult - History and Phy.)",
+  "verified": true,
+  "allergy_documented": true,
+  "allergies": [],
+  "medications": [
+    {
+      "name": "fosamax",
+      "dose_mg": 70.0
+    },
+    {
+      "name": "lisinopril",
+      "dose_mg": 20.0
+    },
+    {
+      "name": "metformin",
+      "dose_mg": 850.0
+    },
+    {
+      "name": "amlodipine",
+      "dose_mg": 5.0
+    },
+    {
+      "name": "metoprolol",
+      "dose_mg": 150.0
+    },
+    {
+      "name": "warfarin",
+      "dose_mg": 5.0
+    },
+    {
+      "name": "magnesium oxide",
+      "dose_mg": 200.0
+    },
+    {
+      "name": "furosemide",
+      "dose_mg": 80.0
+    }
+  ],
+  "expected_flags": [
+    "missing_vitals"
+  ],
+  "notes": "furosemide listed as 'none' but restarted at 80 mg in the plan; included at 80\npotassium excluded: 'none'\ndiltiazem 120 mg excluded: only a conditional future change\nmissing_vitals: no temperature; respiratory rate garbled as '1two' (probably 12), counted as present | expected_flags derived by tools/derive_flags.py from labeled allergies/meds + vitals answer",
+  "vitals_present": "bh"
+}

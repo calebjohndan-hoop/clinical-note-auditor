@@ -1,0 +1,28 @@
+{
+  "id": "hold_02",
+  "source": "MTSamples via Kaggle: Neuroblastoma - Consult (Consult - History and Phy.)",
+  "verified": true,
+  "allergy_documented": true,
+  "allergies": [],
+  "medications": [
+    {
+      "name": "bactrim",
+      "dose_mg": 32.0
+    },
+    {
+      "name": "g-csf",
+      "dose_mg": 0.05
+    },
+    {
+      "name": "fluconazole",
+      "dose_mg": 37.5
+    },
+    {
+      "name": "zofran",
+      "dose_mg": 1.5
+    }
+  ],
+  "expected_flags": [],
+  "notes": "g-csf 50 mcg converted to 0.05 mg; included although the plan stops it at this visit\nzofran is p.r.n. but has a dose, so included | expected_flags derived by tools/derive_flags.py from labeled allergies/meds + vitals answer",
+  "vitals_present": "bhtr"
+}

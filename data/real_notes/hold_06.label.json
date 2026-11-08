@@ -1,0 +1,22 @@
+{
+  "id": "hold_06",
+  "source": "MTSamples via Kaggle: Orthopedic Consult - 4 (Orthopedic)",
+  "verified": true,
+  "allergy_documented": true,
+  "allergies": [],
+  "medications": [
+    {
+      "name": "kadian",
+      "dose_mg": 30.0
+    },
+    {
+      "name": "lyrica",
+      "dose_mg": 150.0
+    }
+  ],
+  "expected_flags": [
+    "missing_vitals"
+  ],
+  "notes": "lyrica 150 mg newly prescribed in plan; included\nzanaflex (half tablet) and advil p.r.n. excluded: no mg dose\nmissing_vitals: temperature absent | expected_flags derived by tools/derive_flags.py from labeled allergies/meds + vitals answer",
+  "vitals_present": "bhr"
+}

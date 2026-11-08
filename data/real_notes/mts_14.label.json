@@ -1,0 +1,24 @@
+{
+  "id": "mts_14",
+  "source": "MTSamples via Kaggle: Gen Med Consult - 36 (General Medicine)",
+  "verified": true,
+  "allergy_documented": true,
+  "allergies": [],
+  "medications": [
+    {
+      "name": "allegra",
+      "dose_mg": 180.0
+    },
+    {
+      "name": "zyrtec",
+      "dose_mg": 10.0
+    },
+    {
+      "name": "claritin",
+      "dose_mg": 10.0
+    }
+  ],
+  "expected_flags": [],
+  "notes": "expected_flags derived by tools/derive_flags.py from labeled allergies/meds + vitals answer",
+  "vitals_present": "bhtr"
+}

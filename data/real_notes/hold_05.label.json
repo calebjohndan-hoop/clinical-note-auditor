@@ -1,0 +1,33 @@
+{
+  "id": "hold_05",
+  "source": "MTSamples via Kaggle: Hypertension - Progress Note (Cardiovascular / Pulmonary)",
+  "verified": true,
+  "allergy_documented": true,
+  "allergies": [
+    "benadryl",
+    "phenobarbitone",
+    "morphine",
+    "lasix",
+    "latex"
+  ],
+  "medications": [
+    {
+      "name": "atenolol",
+      "dose_mg": 50.0
+    },
+    {
+      "name": "premarin",
+      "dose_mg": 0.625
+    },
+    {
+      "name": "triviflor",
+      "dose_mg": 25.0
+    }
+  ],
+  "expected_flags": [
+    "missing_vitals",
+    "unrecognized_allergy"
+  ],
+  "notes": "unsure: triviflor 25 mg two pills daily recorded as written (unusual dose for a vitamin/fluoride product)\ncalcium with vitamin D, multivitamin, aspirin p.r.n. excluded: no dose; elocon/synalar creams excluded: % strength, no mg dose\nmissing_vitals: respiratory rate absent\nunrecognized_allergy: benadryl, phenobarbitone, morphine, lasix not in recognized list; patient on meds | expected_flags derived by tools/derive_flags.py from labeled allergies/meds + vitals answer",
+  "vitals_present": "bht"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "mts_13",
+  "source": "MTSamples via Kaggle: Gen Med Consult - 34 (Consult - History and Phy.)",
+  "verified": true,
+  "allergy_documented": true,
+  "allergies": [],
+  "medications": [
+    {
+      "name": "omeprazole",
+      "dose_mg": 40.0
+    }
+  ],
+  "expected_flags": [],
+  "notes": "expected_flags derived by tools/derive_flags.py from labeled allergies/meds + vitals answer",
+  "vitals_present": "bhtr"
+}

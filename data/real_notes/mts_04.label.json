@@ -1,0 +1,25 @@
+{
+  "id": "mts_04",
+  "source": "MTSamples via Kaggle: Lumbar Radiculopathy - Consult (Orthopedic)",
+  "verified": true,
+  "allergy_documented": true,
+  "allergies": [
+    "hypaque dye"
+  ],
+  "medications": [
+    {
+      "name": "levothyroxine",
+      "dose_mg": 0.075
+    },
+    {
+      "name": "escitalopram",
+      "dose_mg": 20.0
+    }
+  ],
+  "expected_flags": [
+    "missing_vitals",
+    "unrecognized_allergy"
+  ],
+  "notes": "Missing HR and temperature in vitals section. | expected_flags derived by tools/derive_flags.py from labeled allergies/meds + vitals answer",
+  "vitals_present": "b"
+}

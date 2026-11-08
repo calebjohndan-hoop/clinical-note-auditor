@@ -1,0 +1,20 @@
+{
+  "id": "mts_09",
+  "source": "MTSamples via Kaggle: Ankle Sprain - H&P (Consult - History and Phy.)",
+  "verified": true,
+  "allergy_documented": true,
+  "allergies": [],
+  "medications": [
+    {
+      "name": "ibuprofen",
+      "dose_mg": 800.0
+    },
+    {
+      "name": "acetaminophen",
+      "dose_mg": 1000.0
+    }
+  ],
+  "expected_flags": [],
+  "notes": "expected_flags derived by tools/derive_flags.py from labeled allergies/meds + vitals answer",
+  "vitals_present": "bhtr"
+}
