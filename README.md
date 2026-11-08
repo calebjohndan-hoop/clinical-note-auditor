@@ -1,6 +1,7 @@
 # Clinical Note Auditor
 
-> **Live demo:** [PASTE RENDER LINK HERE] (free hosting: the first visit can take up to a minute to wake the server) · **Demo video:** [PASTE YOUTUBE LINK HERE] · **One-pager:** [ONE_PAGER.pdf](ONE_PAGER.pdf) · Built solo by Caleb John Daniel Balakumar for DSH Hacks V2 (AI x Healthcare).
+> **Live demo:** [PASTE RENDER LINK HERE] (free hosting: the first visit can take up to a minute to wake the server) ·  · **One-pager:** [ONE_PAGER.pdf](ONE_PAGER.pdf) ·
+>  Built solo by Caleb John Daniel Balakumar for DSH Hacks V2 (AI x Healthcare).
 
 Paste a messy clinical note. Get back:
 
